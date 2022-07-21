@@ -1,35 +1,54 @@
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	/* .navbar .nav-item:hover .nav-link{   } */
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    /* .navbar .nav-item:hover .nav-link{   } */
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
 /* 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   background-color: darkviolet;
 } */
 
-.nav-item:active, .nav-item:focus, .nav-item:hover, .nav-link:active, .nav-link:focus, .nav-link:hover{
-  background-color: darkviolet;
-  font-weight: bold;
-  color: #fff !important;
+.nav-item:active,
+.nav-item:focus,
+.nav-item:hover,
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: darkviolet;
+    font-weight: bold;
+    color: #fff !important;
 }
 
-.dropdown-item:focus, .dropdown-item:active, .dropdown-item:hover {
-  background-color: darkviolet !important;
-  font-weight: bold;
-  color: #fff !important;
+.dropdown-item:focus,
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: darkviolet !important;
+    font-weight: bold;
+    color: #fff !important;
 }
 
-.text-violet{
-  color: darkviolet;
+.text-violet {
+    color: darkviolet;
+}
+
+.bg-violet {
+    background-color: darkviolet !important;
+    border-color: darkviolet !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .bg-violet:hover{
-  
-  background-color: darkviolet !important;
+    background-color: rgb(179, 0, 255) !important;
 }
+
 
 /* .hidden{
   visibility: hidden;
