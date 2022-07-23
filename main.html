@@ -36,7 +36,10 @@
             <a class="nav-link" href="#about">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="#works">Trabalhos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -70,8 +73,20 @@
     <h3> aplicativos e web.</h3>
   </section>
 
-  <section id="contact" class="text-center hidden">
-    
+  <section id="contact" class="hidden">
+    <h2 class="section-title text-violet text-center">Contato</h2>
+    <form id="contact" action="mailto:fifoluciano@hotmail.com.br" method="post" class="form-center">
+      <div class="form-group">
+        <label for="InputName">Exemplo: <span class="text-violet">João Pedro</span></label>
+        <input type="name" class="form-control" id="InputName" placeholder="João Pedro">
+        <label for="InputName">Exemplo: <span class="text-violet">(11) 98888-5555</span></label>
+        <input type="tel" class="form-control" id="InputPhone" placeholder="Telefone/Celular">
+        <label for="InputEmail">Exemplo: <span class="text-violet">exemplo@exemplo.com</span></label>
+        <input type="email" class="form-control" id="InputEmail" placeholder="exemplo@exemplo.com">
+        
+      </div>
+      <button type="submit" name="send" class="btn btn-primary bg-violet" style="margin-top: 10%; margin-left: 22%;">Confirm identity</button>
+    </form>
 
   </section>
 
