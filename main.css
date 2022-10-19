@@ -62,24 +62,51 @@
     margin-top: 10%;
 }
 
+.sec-skills{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
 .container-skills {
     width: 100%;
     background-color: #ddd;
   }
+  
+  .box-skills{
+    box-shadow: 60px -16px teal;
+  }
+
+  .title-skills{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: start;
+  }
+
+  .porcentage-skills{
+    text-align: end;
+  }
 
 .skills {
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     color: white;
   }
 
-  .java {
-    width: 80%; 
+  .icons{
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+  }
+
+  .csharp {
+    width: 100%; 
     background-color: darkviolet;
   }
 
-  .android{
+  /* .android{
     width: 70%; 
     background-color: lightyellow;
   }
@@ -97,7 +124,7 @@
   .js{
     width: 40%; 
     background-color: darkviolet;
-  }
+  } */
 
 
 /* .hidden{

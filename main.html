@@ -8,12 +8,14 @@
     <title>Portfólio</title>
     <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" rel="stylesheet">
-
+    
     <link rel="shortcut icon" href="logo.jpg"/>
-
+    
+    <script src="C:\Users\fifol\OneDrive\Documentos\VSCode\Portfolio\js\jquery-3.6.1.min.js"> </script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -59,7 +61,7 @@
   <section id="home" class="text-start hidden title-lg" style="margin-top: 10%; margin-left: 10%;">
       <h1 >Olá, prazer!</h1>
       <h1>Me chamo <span class="text-violet">Luciano</span>, </h1>
-      <h1>Desenvolvedor Fullstack</h1></h1>
+      <h1>Desenvolvedor Backend</h1></h1>
       <br>
       <a href="https://api.whatsapp.com/send?phone=5551984067938" target="_blank"><button type="button" class="btn bg-violet btn-lg">Contato</button></a>
   </section>
@@ -67,37 +69,84 @@
   <section id="about" class="text-end hidden" style="margin-top: 10%; margin-right: 10%;">
     <h1>Sobre</h1>
     <h3>Olá, me chamo <span class="text-violet">Luciano</span>,</h3>
-    <h3>sou desenvolvedor <span class="text-violet">fullstack</span>.</h3>
-    <h3>Trabalho com várias linguagens</h3>
-    <h3>de programação voltadas a</h3>
-    <h3> aplicativos e web.</h3>
+    <h3>sou desenvolvedor voltado ao <span class="text-violet">backend</span>.</h3>
+    <h3>Trabalho principalmente com C# .Net</h3>
+    <h3>com foco em desktop.</h3>
   </section>
 
   <section id="skills" class="text-center hidden">
     <h1>Habilidades</h1>
     <br>
     <br>
-    <div class="container-skills">
-      <div class="skills java"></div>
+    <div class="sec-skills" style="margin-left: 40%; margin-right: 40%;">
+        <div class="container-skills" style="border-radius: 5px;">
+          <div class="title-skills"><img src="csharp.png" class="icons" alt="">C#</div>
+          <div class="skills csharp text-start"></div>
+          <div>100%</div>
+        </div>          
     </div>
   </section>
 
-  <section id="works" class="text-end hidden" style="margin-top: 10%; margin-right: 10%;">
+  <section id="works" class="text-end hidden" style="margin-top: 5%">
+    <h2 class="section-title text-violet text-center">Trabalhos / Projetos</h2>
+    <br>
+    <br>
+    
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner" style="height: 20em">
+          <div class="carousel-item h-100 active" style="background: url(projects/Inventario\ TI/Principal.jpeg) center/contain no-repeat">
+          </div>
+          <div class="carousel-item h-100" style="background: url(projects/Inventario\ TI/AdicionarItem.jpeg) center/contain no-repeat">
+          </div>
+          <div class="carousel-item h-50" style="background: url(projects/Inventario\ TI/CriarItem.jpeg) center/contain no-repeat">
+          </div>
+          <div class="carousel-item h-100" style="background: url(projects/Inventario\ TI/Descartes.jpeg) center/contain no-repeat">
+          </div>
+          <div class="carousel-item h-100" style="background: url(projects/Inventario\ TI/Log.jpeg) center/contain no-repeat">
+          </div>
+          <div class="carousel-item h-50" style="background: url(projects/Inventario\ TI/Config.jpeg) center/contain no-repeat">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
   </section>
 
   <section id="contact" class="hidden">
+    <br>
+    <br>
     <h2 class="section-title text-violet text-center">Contato</h2>
     <form id="contact" action="mailto:fifoluciano@hotmail.com.br" method="post" class="form-center">
       <div class="form-group">
         <label for="InputName">Exemplo: <span class="text-violet">João Pedro</span></label>
-        <input type="name" class="form-control" id="InputName" placeholder="João Pedro">
+        <input type="name" class="form-control" id="InputName" placeholder="Nome">
         <label for="InputPhone">Exemplo: <span class="text-violet">(11) 98888-5555</span></label>
-        <input type="tel" class="form-control" id="InputPhone" placeholder="Telefone/Celular">
+        <input type="tel" class="form-control" id="InputPhone" placeholder="Número">
         <label for="InputEmail">Exemplo: <span class="text-violet">exemplo@exemplo.com</span></label>
-        <input type="email" class="form-control" id="InputEmail" placeholder="exemplo@exemplo.com">
+        <input type="email" class="form-control" id="InputEmail" placeholder="E-mail">
         
       </div>
-      <button type="submit" name="send" class="btn btn-primary bg-violet" style="margin-top: 10%; margin-left: 22%;">Confirm identity</button>
+      <button type="submit" name="send" class="btn btn-primary bg-violet" style="margin-top: 10%; margin-left: 35%;">Enviar</button>
+
+      <br>
+      <br>
     </form>
 
   </section>
@@ -105,3 +154,4 @@
 </body>
 
 </html>
+
